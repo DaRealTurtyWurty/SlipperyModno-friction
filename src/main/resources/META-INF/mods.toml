@@ -1,0 +1,33 @@
+modLoader="javafml"
+
+loaderVersion="[32,)"
+
+[[mods]]
+
+modId="slipperymod" 
+
+version="1.0 - No Friction Edition" 
+
+displayName="Slippery Mod" 
+
+credits="Fundy"
+ 
+authors="TurtyWurty"
+
+description='''
+A mod which makes all blocks extremely slippery. However this is a special edition which makes it so there is no friction at all.
+'''
+
+[[dependencies.slipperymod]] 
+    modId="forge"
+    mandatory=true
+    versionRange="[32,)"
+    ordering="NONE"
+    side="BOTH"
+	
+[[dependencies.slipperymod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"
